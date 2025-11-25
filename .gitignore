@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# Editor / OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Compiled
+*.so
+
+# Logs
+*.log
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+
+# SQLite (agar use kare to)
+*.sqlite3
+
+# Local settings
+*.local
