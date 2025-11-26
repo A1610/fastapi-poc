@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-API_URL = "http://127.0.0.1:8000"   # Local FastAPI URL
+API_URL = "https://fastapi-poc-production-5108.up.railway.app"  # Local FastAPI URL
 # Later: change to your Railway URL when deployed
 
 st.set_page_config(page_title="FastAPI + Streamlit Auth")
