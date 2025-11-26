@@ -82,12 +82,4 @@ def get_user(authorization: str = Header(...)):
     except Exception as e:
         raise HTTPException(status_code=401, detail=str(e))
 
-
-# ---------- PROFILE ----------
-@app.get("/profile")
-async def profile(user=Depends(get_user)):
-    return {
-        "status": "ok",
-        "email": user.email,
-        "id": user.id,
-    }
+# 
